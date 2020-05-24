@@ -1,5 +1,5 @@
 pipeline {
-    agent Linux-slave1
+    agent slave1
     stages {
         stage('Build Application') {
             steps {
